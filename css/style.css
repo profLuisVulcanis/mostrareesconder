@@ -5,3 +5,23 @@ html, body {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
 }
+
+header {
+    background-color: black;
+    padding: 0.5rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: white;
+}
+
+main, main figure, main figure img {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .device {
+        display: none;
+    }
+}
